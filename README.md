@@ -24,6 +24,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![](./netflix-ss5.jpg)
 ![](./netflix-ss6.jpg)
 
+
+https://user-images.githubusercontent.com/105745506/212659118-ae9c5b84-f8a0-4749-bdc1-524177746fe6.mp4
+
+
 ## Available Scripts
 
 In the project directory, you can run:
