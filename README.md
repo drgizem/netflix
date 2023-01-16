@@ -17,6 +17,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - React youtube
 - TMDB API
 
+![](.netflix-ss1.jpg)
+
 ## Available Scripts
 
 In the project directory, you can run:
