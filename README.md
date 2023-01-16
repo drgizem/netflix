@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - React youtube
 - TMDB API
 
-![](.netflix-ss1.jpg)
+![](./netflix-ss1.jpg)
 
 ## Available Scripts
 
