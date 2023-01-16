@@ -1,0 +1,69 @@
+.signin_page{
+  color: white;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../../public/entrance.jpg");
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+.signin_box{
+  width: 500px;
+  height: 650px;
+  background-color:rgba(0, 0, 0, 0.7);
+  left: 40%;
+  top:20%;
+  position: absolute;
+}
+.signin_form{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 350px;
+  gap:40px;
+  top:200px;
+  right:70px;
+}
+.signin_header{
+  position: absolute;
+  top:90px;
+  left:80px
+}
+#signin_btn{
+  width: 350px;
+  height: 50px;
+  background-color: red;
+  font-weight: 600;
+}
+#signin_btn:hover{
+  background-color: rgb(236, 44, 44);
+}
+.signin_info{
+  position: absolute;
+  color:gray;
+  top:470px;
+  display: flex;
+  flex-direction: row;
+  left:80px;
+  right: 70px;
+  justify-content: space-between;
+}
+.facebook{
+  display: flex;
+  flex-direction: row;
+  gap:5px;
+  align-items: center;
+  position: absolute;
+  top:500px;
+  left:80px;
+  cursor: pointer;
+  color: gray;
+}
+#email,
+#password{
+  background-color: gray;
+  border-radius: 4px;
+}
+.need{
+  cursor: pointer;
+}

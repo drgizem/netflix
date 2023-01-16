@@ -1,0 +1,97 @@
+.entrance__logo{
+  width: 200px;
+  position: absolute;
+  left:50px;
+  top:30px;
+  cursor: pointer;
+}
+.entrance_option{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  height: 40px;
+  right: 50px;
+  top: 30px;
+}
+.entrance_page{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../../public/entrance.jpg");
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+.signin_button{
+  border:none;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  width: 95px;
+  cursor: pointer;
+}
+.entrance_select{
+  border-radius: 2px;
+  font-size: 17px;
+  font-weight: 500;
+  width: 100px;
+  color: white;
+  background-color:rgba(255, 255, 255, 0.01);
+  border-color: white;
+}
+.entrance_option{
+  color: gray;
+}
+.entrance_info{
+  text-align: center;
+  color: white;
+  position: absolute;
+  top:200px;
+  left:35%
+}
+.entrance_start{
+  background-color: red;
+  border:none;
+  font-size: 27px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+.entrance_input{
+  display: flex;
+  justify-content: center;
+}
+#email{
+  width: 500px;
+  background-color: white;
+}
+.entrance_h1{
+  font-size: 70px;
+  font-weight: 500;
+}
+.entrance_h5{
+  font-size: 30px;
+  font-weight: 400;
+}
+.entrance_p{
+  font-size: 20px;
+  font-weight: 400;
+}
+.start_btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  height: 57px;
+  width: 250px;
+}
+.email_required{
+  color: rgb(255, 196, 0);
+  font-weight: 500;
+  float: left;
+}
+.invalid{
+  color:red;
+  font-size: 18px;
+  float: left;
+}

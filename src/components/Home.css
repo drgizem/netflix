@@ -1,0 +1,158 @@
+.home{
+  padding: 0;
+  margin: 0;
+}
+.home_navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home_logo{
+  width: 170px;
+  height: 50px;
+}
+.container{
+  position: relative;
+  width: 90%;
+  top:15px;
+  left: 60px;
+  right: 260px;
+}
+.navbar_menu{
+  display: flex;
+  margin-left:50px;
+  gap:25px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.navbar_info{
+  display: flex;
+  align-items: center;
+  gap:20px;
+  color: white;
+  position: absolute;
+  right: 10px;
+}
+.navbar_avatar{
+  width: 35px;
+  height: 35px;
+}
+.home_movie{
+  width: 150px;
+  height: 250px;
+  transform: scale(1);
+  cursor: pointer;
+}
+.home_movie:hover{
+  transform: scale(1.09);
+}
+.movie_title{
+  color: white;
+  text-align: left;
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.home_row{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.categories{
+  display: flex;
+  flex-direction: column;
+}
+.movies{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.movies_category{
+  display: flex;
+  flex-direction: row;
+  gap:8px
+}
+.left_arrow{
+  position: absolute;
+  left: 0px;
+  z-index: 1;
+  color: white;
+}
+.right_arrow{
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+  color: white;
+}
+.selected{
+  color : white; 
+  height:700px;
+}
+.select_video{
+  position: absolute;
+  top:55px;
+  width: 100%;
+}
+.selected_title{
+  color: white;
+  font-size: 50px;
+  left:0px;
+  position: absolute;
+  text-align: left;
+}
+.selected_overview{
+  width: 500px;
+  text-align: start;
+  top:160px;
+  font-size: 18px;
+  left:0px;
+  position: absolute;
+}
+.selected_btn{
+display: flex;
+flex-direction: row;
+top:350px;
+left:0px;
+position: absolute;
+}
+.selected_info{
+  height: 500px;
+  width: 700px;
+  left:30px;
+  top:250px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.play{
+  align-items: center;
+  border-radius: 4px;
+  width: 90px;
+  height: 30px;
+  font-size: 18px;
+  display: flex;
+  font-weight: 500;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: gray;
+  border: none;
+}
+.info{
+  border-radius: 4px;
+  width: 110px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: gray;
+  border: none;
+}
+.play:hover,
+.info:hover{
+  color: black;
+  background-color: white;
+}
