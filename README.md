@@ -18,6 +18,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - TMDB API
 
 ![](./netflix-ss1.jpg)
+![](./netflix-ss2.jpg)
+![](./netflix-ss3.jpg)
+![](./netflix-ss4.jpg)
+![](./netflix-ss5.jpg)
+![](./netflix-ss6.jpg)
 
 ## Available Scripts
 
